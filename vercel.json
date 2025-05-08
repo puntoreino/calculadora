@@ -1,0 +1,10 @@
+
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/registrar.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/registrar", "dest": "/api/registrar.js" }
+  ]
+}
